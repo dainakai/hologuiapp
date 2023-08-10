@@ -3,7 +3,7 @@ CONFIG += c++17
 
 # OSに応じた設定
 macx {
-    INCLUDEPATH += /opt/homebrew/include
+    INCLUDEPATH += /opt/homebrew/include /opt/homebrew/include/opencv4 /opt/homebrew/include/opencv4/opencv2/
     LIBS += -L/opt/homebrew/lib
 }
 
